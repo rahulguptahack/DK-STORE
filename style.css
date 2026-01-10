@@ -71,3 +71,11 @@ header button {
   color: white;
   margin-top: 10px;
 }
+.product img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 10px;
+}
+
