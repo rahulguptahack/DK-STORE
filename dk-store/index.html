@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DK STORE | Local Grocery Delivery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🛒 DK STORE</h1>
+  <p>Local Grocery – Delivery within 5 KM</p>
+  <button onclick="openCart()">🛍 Cart (<span id="cartCount">0</span>)</button>
+</header>
+
+<section id="products" class="product-grid">
+</section>
+
+<!-- CART -->
+<div id="cartModal" class="cart-modal">
+  <div class="cart-content">
+    <h2>Your Cart</h2>
+    <div id="cartItems"></div>
+    <h3>Total: ₹<span id="totalAmount">0</span></h3>
+    <button onclick="sendWhatsAppOrder()">📲 Order on WhatsApp</button>
+    <button class="close" onclick="closeCart()">Close</button>
+  </div>
+</div>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
