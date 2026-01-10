@@ -72,11 +72,13 @@ header button {
   margin-top: 10px;
 }
 .product img {
-  width: 120px;
-  height: 120px;
+  width: 300px !important;
+  height: 300px !important;
   object-fit: contain;
-  border: 1px solid #ddd;
-  background: #fff;
+  background: yellow;
+  border: 3px solid red;
 }
+
+
 
 
