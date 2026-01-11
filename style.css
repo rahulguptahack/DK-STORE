@@ -1,6 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
+  font-family: Arial, sans-serif;
   background: #f5f5f5;
 }
 
@@ -11,11 +11,17 @@ header {
   text-align: center;
 }
 
+header input {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
 header button {
+  padding: 8px 15px;
+  border: none;
   background: white;
   color: #0a8f08;
-  border: none;
-  padding: 8px 15px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -35,8 +41,21 @@ header button {
 }
 
 .product img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+.qty {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.qty button {
+  padding: 4px 10px;
 }
 
 .product button {
@@ -46,7 +65,6 @@ header button {
   padding: 6px 10px;
   margin-top: 5px;
   border-radius: 4px;
-  cursor: pointer;
 }
 
 .cart-modal {
@@ -66,31 +84,13 @@ header button {
   border-radius: 8px;
 }
 
-.close {
-  background: red;
-  color: white;
-  margin-top: 10px;
-}
-.product img {
-  width: 300px !important;
-  height: 300px !important;
-  object-fit: contain;
-  background: yellow;
-  border: 3px solid red;
-}
-.qty {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+.cart-content input {
+  width: 100%;
+  padding: 6px;
   margin: 5px 0;
 }
 
-.qty button {
-  padding: 3px 8px;
-  font-size: 16px;
+.close {
+  background: red;
+  color: white;
 }
-
-
-
-
-
