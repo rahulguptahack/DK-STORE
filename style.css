@@ -5,15 +5,15 @@ body {
 
 header {
   background: #0a8f08;
-  color: #fff;
+  color: white;
   padding: 15px;
   text-align: center;
 }
 
-header input {
+header input, header select {
   padding: 8px;
+  margin: 5px;
   width: 60%;
-  margin: 10px 0;
 }
 
 #product-list {
@@ -35,6 +35,13 @@ header input {
   object-fit: contain;
 }
 
+.qty {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 5px;
+}
+
 button {
   padding: 6px 10px;
   cursor: pointer;
@@ -49,7 +56,13 @@ button {
   background: #fff;
   border: 2px solid #0a8f08;
   padding: 15px;
-  width: 280px;
+  width: 300px;
   max-height: 90vh;
   overflow: auto;
+}
+
+#cartBox input, #cartBox textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 6px;
 }
