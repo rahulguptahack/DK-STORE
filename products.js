@@ -1,10 +1,8 @@
 const products = [
-  { id: 1, name: "Basmati Rice 5 Kg", price: 300, img: "rice.jpg" }
+  {
+    id: 1,
+    name: "Basmati Rice 5 Kg",
+    price: 300,
+    img: "images/Rice.jpg"
+  }
 ];
-
-
-
-
-
-
-
