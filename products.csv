@@ -1,21 +1,8 @@
-id,name,price,image
-1,Basmati Rice 5 Kg,300,rice.jpg
-2,Regular Rice 10 Kg,520,rice.jpg
-3,Wheat Atta 5 Kg,210,atta.jpg
-4,Wheat Atta 10 Kg,410,atta.jpg
-5,Sugar 1 Kg,45,sugar.jpg
-6,Sugar 5 Kg,220,sugar.jpg
-7,Refined Oil 1 L,160,oil.jpg
-8,Refined Oil 5 L,760,oil.jpg
-9,Mustard Oil 1 L,175,mustard.jpg
-10,Tea 250 g,95,tea.jpg
-11,Tea 500 g,180,tea.jpg
-12,Salt 1 Kg,20,salt.jpg
-13,Turmeric Powder 100 g,35,haldi.jpg
-14,Red Chilli Powder 100 g,55,chilli.jpg
-15,Coriander Powder 100 g,40,dhaniya.jpg
-16,Moong Dal 1 Kg,120,dal.jpg
-17,Masoor Dal 1 Kg,110,dal.jpg
-18,Chana Dal 1 Kg,95,dal.jpg
-19,Poha 1 Kg,60,poha.jpg
-20,Suji 1 Kg,55,suji.jpg
+id,name,category,price,image
+1,Rice 5kg,Grocery,320,rice.png
+2,Wheat Flour 10kg,Grocery,450,atta.png
+3,Sugar 1kg,Grocery,45,sugar.png
+4,Milk 1L,Dairy,55,milk.png
+5,Curd 500g,Dairy,40,curd.png
+6,Soap,Personal Care,35,soap.png
+7,Shampoo,Personal Care,120,shampoo.png
