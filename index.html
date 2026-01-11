@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>DK STORE | Local Grocery Delivery</title>
+<title>DK STORE | Grocery Delivery</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -11,18 +11,24 @@
 <header>
   <h1>🛒 DK STORE</h1>
   <p>Local Grocery – Delivery within 5 KM</p>
+  <input type="text" id="search" placeholder="Search product..." onkeyup="searchProduct()">
   <button onclick="openCart()">🛍 Cart (<span id="cartCount">0</span>)</button>
 </header>
 
-<section id="products" class="product-grid">
-</section>
+<section id="products" class="product-grid"></section>
 
-<!-- CART -->
+<!-- CART MODAL -->
 <div id="cartModal" class="cart-modal">
   <div class="cart-content">
     <h2>Your Cart</h2>
+
     <div id="cartItems"></div>
     <h3>Total: ₹<span id="totalAmount">0</span></h3>
+
+    <input type="text" id="custName" placeholder="Your Name">
+    <input type="text" id="custAddress" placeholder="Delivery Address">
+    <input type="tel" id="custPhone" placeholder="Mobile Number">
+
     <button onclick="sendWhatsAppOrder()">📲 Order on WhatsApp</button>
     <button class="close" onclick="closeCart()">Close</button>
   </div>
